@@ -1,0 +1,12 @@
+
+.tareas-lista-contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+h2{
+  color: #216966;
+  font-size: 20px;
+  /* font-family: monospace; */
+}
