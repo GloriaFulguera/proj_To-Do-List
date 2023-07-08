@@ -23,25 +23,15 @@ function Entrada(props){
 
   };
  
-
     return(
         <form className="tarea-formulario" >
           <TextField
-          // id="outlined-basic"
           label="Nueva Tarea"
           variant="outlined"
           size="normal"
-          // fullWidth
           color="primary"
           onChange={manejarCambio}
           />
-          {/* <input className="tarea-input"
-          type="text"
-          placeholder="NUEVA TAREA"
-          name="texto"
-          onChange={manejarCambio}
-          >
-          </input> */}
           <Button 
           onClick={manejarEnvio}
           variant="contained"
@@ -51,9 +41,6 @@ function Entrada(props){
           >
           AGREGAR
           </Button>
-          {/* <button className="tarea-boton" >
-            AGREGAR
-          </button> */}
         </form>
     );
 }
